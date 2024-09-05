@@ -1,0 +1,204 @@
+*{
+    margin:0px;
+}
+
+body{
+    color: white;
+    background: linear-gradient(to right,black,rgb(28, 29, 29),rgb(60, 62, 61));
+}
+.container{
+    background: linear-gradient(to right,black,rgb(28, 29, 29),rgb(60, 62, 61));
+
+    
+    color: white;
+    height: 50px;
+    align-content: center;
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid yellow;
+}
+
+
+a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #ed1010;
+    transition: width .60s;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+
+.container nav ul{
+    
+    display: flex;
+    justify-content: end;
+
+
+}
+nav ul h2{
+    margin-left: 50px;
+    font-family: sans-serif;
+}
+.home{
+    padding-top: 100px;
+}
+.profile{
+    position: absolute;
+    left: 900px;
+    top: 300px;
+
+border-radius: 100%;
+background-color: rgb(89, 89, 70);
+}
+.hello{
+    margin-top:100px;
+    margin-left: 410px;
+    font-size:40px ;
+    font-family: sans-serif;
+}
+.name{
+    color: rgb(160, 25, 140);
+    font-size: 100px;
+    font-family: sans-serif;
+   
+    margin-left: 400px;
+}
+.web{
+    font-size: 40px;
+    color: yellow;
+    margin-left: 500px;
+    margin-top: 0px;
+    
+    font-family: sans-serif;
+
+}
+.hire{
+    
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    background: linear-gradient(to right,rgb(56, 51, 51),rgb(52, 46, 46),rgb(141, 135, 135));
+    padding: 12px;
+font-family: sans-serif;
+margin-left: 600px;
+margin-top: 180px;
+}
+.p{
+    padding: 30px;
+    border-radius: 30px;
+    width: 700px;
+    font-size: 30px;
+    color: white;
+    background: linear-gradient(to right,rgb(56, 51, 51),rgb(52, 46, 46),rgb(141, 135, 135));
+text-align: center;
+margin-left: 400px;
+margin-top: 250px;  
+}
+.p2{
+    padding: 30px;
+
+    border-radius: 30px;
+    width: 700px;
+    font-size: 30px;
+    color: white;
+    background: linear-gradient(to right,rgb(56, 51, 51),rgb(52, 46, 46),rgb(141, 135, 135));
+text-align: center;
+margin-left: 400px;
+margin-top: 180px;
+margin-bottom: 180px;  
+}
+.content{
+    
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+    margin-bottom: 200px;
+    margin-left: 400px;
+    z-index: 2;
+}
+.computer{
+    font-size: 25px;
+    color: white;
+    margin-top: 300px;
+    margin-left: 400px;
+    z-index: 2;
+}
+
+
+.gmail{
+    width: 600px;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 30px;
+    color: white;
+    background: linear-gradient(to right,rgb(56, 51, 51),rgb(52, 46, 46),rgb(141, 135, 135));
+align-items: center;
+   margin-left: 500px; 
+    padding: 30px;
+    margin-top: 500px;
+    margin-bottom: 300px;
+
+}
+
+.g{
+  
+   bottom: px;
+}
+.linked{
+    bottom: 50px;
+    left: 120px;
+ }
+    
+ 
+.lin{
+    margin-left: 10px;
+}
+
+
+
+.content span{
+    position: absolute;
+   top: 1800px;
+    left: 600px;
+}
+
+.content span:nth-child(1){
+    position: relative;
+    
+}
+.img{
+    border-radius: 500px;
+   position: absolute;
+   left: 1000px;
+   top: 200px;
+   z-index: 1px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#skills{
+    scroll-margin-top: 200px;
+
+}
+#contact{
+    scroll-margin-bottom: 1500px;
+}
+
+#about{
+    scroll-margin-bottom: 200px;
+}
+.computer img {
+position: relative;
+
+}
+.content{
+    position: absolute;
+    margin-bottom: 100px ;
+}
